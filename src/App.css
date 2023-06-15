@@ -1,0 +1,49 @@
+/* App.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile {
+  margin-top: 20px;
+}
+
+.profile h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(222, 6, 6);
+}
+
+.profile p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.profile img {
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 10px
+}
+
+.mounted-time {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #777;
+  transition: color 0.3s ease-in-out;
+}
+
+.mounted-time.active {
+  color: #ff0000;
+}
